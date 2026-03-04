@@ -1,52 +1,84 @@
+<div align="center">
+
 # VerifyBot
+**Verification & trust tooling for Discord**  
+A project by **Afterparty Bot Labs**
 
-**VerifyBot** is an advanced security and moderation bot designed to protect your server. It features a robust verification system, detailed logging, and administrative tools to keep your community safe.
+<a href="https://discord.com/api/oauth2/authorize?client_id=1325944440778657873&permissions=8&scope=applications.commands+bot">
+  <img src="https://img.shields.io/badge/Invite%20Bot-Add%20to%20Server-4E8ED8?style=for-the-badge&logo=discord&logoColor=white" alt="Invite VerifyBot" />
+</a>
+<a href="https://discord.com/invite/BusuZp2G8w">
+  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server" />
+</a>
+<a href="https://afterpartylabs.xyz">
+  <img src="https://img.shields.io/badge/Afterparty%20Bot%20Labs-Website-4E8ED8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Afterparty Bot Labs Website" />
+</a>
 
----
-
-## 🛡️ Features
-
-- **Verification System**: Automated user verification to prevent raids and bots.
-- **Advanced Logging**: Track joins, leaves, and other server events with precision.
-- **Admin Tools**: Whitelist management, ban checks, and server maintenance utilities.
-- **Customizable**: Configure log channels and webhooks easily.
-- **Branded Interface**: Clean, professional embeds powered by **Afterparty Bot Labs**.
-
----
-
-## 🛠️ Commands
-
-### **Verification**
-- `/verify` - Start the verification process to gain access to the server.
-- `/check <user>` - Check a user's verification status and trusted roles.
-- `/setreactionverify` - Set up a message for users to verify by reacting with an emoji.
-- `/addverifyrole <roles>` - Whitelist roles to be tracked and logged when users verify.
-- `/removeverifyrole <role>` - Remove a role from the verification whitelist.
-- `/listverifyroles` - View the list of all whitelisted verification roles.
-
-### **Moderation & Safety**
-- `/bancheck <user>` - Check if a user is banned across trusted servers.
-- `/crosscheck <user>` - Cross-reference a user against the shared ban database.
-- `/fullscan` - Scan all members in the server for potential bans or flags.
-
-### **Logging & Settings**
-- `/setlogs` - Configure the channel or webhook for server logs.
-
-### **Utility**
-- `/about` - View information about the bot and its developers.
-- `/help` - Display the list of available commands.
-- `/ping` - Check the bot's latency.
-- `/stats` - View real-time bot statistics (users, servers, uptime).
-- `/support` - Get links to the support server and website.
+</div>
 
 ---
 
-## 🎨 Branding & Support
+## What VerifyBot Does
 
-**VerifyBot** is a project by **Afterparty Bot Labs**.
+**VerifyBot** helps servers manage verification and trust workflows, with tools for:
+- Verification roles (manual + reaction-based)
+- Verification logging (channel + webhook)
+- Cross-server verification checks (trusted server network)
+- Moderation utilities for verified/banned users
+- Developer/admin diagnostics (restricted)
 
-- **Website**: [Afterparty Bot Labs](https://afterpartylabs.xyz)
-- **Support**: [Join our Discord](https://discord.gg/BusuZp2G8w)
+---
+
+## Quick Start
+
+1. Invite the bot to your server:  
+   **Invite link:**  
+   https://discord.com/api/oauth2/authorize?client_id=1325944440778657873&permissions=8&scope=applications.commands+bot
+
+2. Configure logging:  
+   - `/setlogs` to set log channel and/or webhook
+
+3. Configure verification:
+   - `/addverifyrole` to whitelist roles VerifyBot is allowed to assign/update
+   - Optional: `/setreactionverify` to enable reaction-based verification
+   - Use `/verify` for manual verification
+
+---
+
+## Commands
+
+### Verification
+- `/verify` — Manually verify a user with a role.
+- `/setreactionverify` — Set up reaction-based verification: choose a channel, role, and emoji.
+- `/addverifyrole` — Whitelist one or more roles for verification updates.
+- `/removeverifyrole` — Remove a role from the whitelist.
+- `/listverifyroles` — List all roles whitelisted for verification.
+
+### Moderation
+- `/check` — Check a user
+- `/crosscheck` — Check if a user is verified in other servers.
+- `/bancheck` — Check a banned verified user
+- `/fullscan` — Perform a retro-active full scan to assign or log a specific whitelisted role.
+
+### Settings
+- `/setlogs` — Configure logging settings (channel and/or webhook).
+
+### Info
+- `/help` — Show categories and commands for VerifyBot.
+- `/about` — Show information about the bot.
+- `/ping` — Check the bot
+- `/stats` — View verification statistics
+- `/support` — Get links to support the bot
+
+> Some commands are restricted to bot developers/owners.
+
+---
+
+## Project Notice
+
+- This bot is **private**
+- Forks and PRs are **not accepted**
+- Self-hosting is **not supported**
 
 ---
 
