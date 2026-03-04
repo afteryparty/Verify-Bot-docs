@@ -13,7 +13,7 @@ footer_brand: "Afterparty Bot Labs"
 footer_link: "https://afterpartylabs.xyz"
 
 # Logo
-logo: "/assets/images/verifybot-logo.png"
+logo: "logo: "/assets/images/verify-bot.png""
 
 # Header buttons (Docs points to THIS site)
 cta_docs_url: "/"
