@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/verify-bot.png" width="140">
+<img src="/assets/images/verify-bot.png" width="140">
 
 # VerifyBot
 Verification & trust tooling for Discord  
