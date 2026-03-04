@@ -1,6 +1,11 @@
+---
+layout: default
+title: VerifyBot
+---
+
 <div align="center">
 
-<img src="assets/images/verify-bot.png" width="120">
+<img src="{{ '/assets/images/verify-bot.png' | relative_url }}" width="120">
 
 # VerifyBot
 Verification & trust tooling for Discord  
