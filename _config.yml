@@ -1,6 +1,22 @@
 theme: jekyll-theme-midnight
-title: VerifyBot
-description: Advanced Security & Verification Bot by Afterparty Bot Labs
+
+title: "VerifyBot Help Center"
+description: "Official Documentation for the VerifyBot Discord Bot by Afterparty Bot Labs"
+
 show_downloads: false
-google_analytics:
-color: '#4E8ED8'
+
+# Brand color
+theme_color: "#4E8ED8"
+
+# Branding
+footer_brand: "Afterparty Bot Labs"
+footer_link: "https://afterpartylabs.xyz"
+
+# Logo
+logo: "/assets/images/verifybot-logo.png"
+
+# Header buttons
+cta_docs_url: "https://help.verifybot.xyz"
+cta_invite_url: "https://discord.com/oauth2/authorize?client_id=VERIFYBOT_CLIENT_ID&permissions=8&scope=bot%20applications.commands"
+cta_support_url: "https://discord.gg/YOURSERVER"
+cta_website_url: "https://afterpartylabs.xyz"
