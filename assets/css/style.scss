@@ -3,6 +3,34 @@
 
 @import "jekyll-theme-midnight";
 
+/* Brand color */
+:root {
+  --verify: #4E8ED8;
+  --verifyHover: #6aa4e6;
+}
+
+/* Links */
 a {
-  color: #00e5ff;
+  color: var(--verify);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--verifyHover);
+}
+
+/* Buttons */
+.btn.primary {
+  background: var(--verify);
+  color: #081014;
+}
+
+.btn.primary:hover {
+  background: var(--verifyHover);
+}
+
+/* Code blocks */
+pre, code {
+  background: #111318;
+  border-radius: 6px;
 }
