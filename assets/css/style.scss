@@ -3,34 +3,41 @@
 
 @import "jekyll-theme-midnight";
 
-/* Brand color */
 :root {
   --verify: #4E8ED8;
-  --verifyHover: #6aa4e6;
+  --verifyHover: #6aa7ee;
+  --panel: rgba(255,255,255,.06);
+  --border: rgba(255,255,255,.10);
 }
+
+/* Global */
+body { background: #0b0c10; }
+.main-content { max-width: 980px; margin: 0 auto; padding: 0 1rem; }
 
 /* Links */
-a {
-  color: var(--verify);
-  text-decoration: none;
+a { color: var(--verify); text-decoration: none; }
+a:hover { color: var(--verifyHover); text-decoration: underline; }
+
+/* Headings */
+h1, h2, h3 { color: #fff; }
+
+/* Buttons (Midnight uses .btn) */
+.btn { border-radius: 10px; padding: 10px 14px; font-weight: 800; }
+.btn.primary { background: var(--verify); color: #071018; border: 1px solid rgba(255,255,255,.14); }
+.btn.primary:hover { background: var(--verifyHover); }
+.btn.secondary { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.16); color: #fff; }
+.btn.secondary:hover { background: rgba(255,255,255,.16); }
+
+/* Content cards */
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
 }
 
-a:hover {
-  color: var(--verifyHover);
-}
-
-/* Buttons */
-.btn.primary {
-  background: var(--verify);
-  color: #081014;
-}
-
-.btn.primary:hover {
-  background: var(--verifyHover);
-}
-
-/* Code blocks */
+/* Code */
 pre, code {
-  background: #111318;
-  border-radius: 6px;
+  background: rgba(0,0,0,.35);
+  border-radius: 10px;
 }
