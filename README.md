@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="/assets/images/verify-bot.png" width="140">
-
 # VerifyBot
 Verification & trust tooling for Discord  
 A project by **Afterparty Bot Labs**
