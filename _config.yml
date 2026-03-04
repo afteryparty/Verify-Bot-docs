@@ -13,9 +13,9 @@ footer_brand: "Afterparty Bot Labs"
 footer_link: "https://afterpartylabs.xyz"
 
 # Logo
-logo: "logo: "/assets/images/verify-bot.png""
+logo: /assets/images/verify-bot.png
 
-# Header buttons (Docs points to THIS site)
+# Header buttons
 cta_docs_url: "/"
 cta_invite_url: "https://discord.com/api/oauth2/authorize?client_id=1325944440778657873&permissions=8&scope=applications.commands+bot"
 cta_support_url: "https://discord.com/invite/BusuZp2G8w"
