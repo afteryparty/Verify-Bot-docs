@@ -1,11 +1,15 @@
 <div align="center">
 
+<img src="assets/images/verify-bot.png" width="120">
+
 # VerifyBot
-**Verification & trust tooling for Discord**  
+Verification & trust tooling for Discord  
 A project by **Afterparty Bot Labs**
 
-<a href="https://discord.com/api/oauth2/authorize?client_id=1325944440778657873&permissions=8&scope=applications.commands+bot">
-  <img src="https://img.shields.io/badge/Invite%20Bot-Add%20to%20Server-4E8ED8?style=for-the-badge&logo=discord&logoColor=white" alt="Invite VerifyBot" />
+</div>
+
+<a href="https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands">
+  <img src="https://img.shields.io/badge/Add%20Bot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white" alt="Invite VerifyBot" />
 </a>
 <a href="https://discord.com/invite/BusuZp2G8w">
   <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server" />
@@ -31,17 +35,19 @@ A project by **Afterparty Bot Labs**
 
 ## Quick Start
 
-1. Invite the bot to your server:  
-   **Invite link:**  
-   https://discord.com/api/oauth2/authorize?client_id=1325944440778657873&permissions=8&scope=applications.commands+bot
+1. Invite the bot to your server:
 
-2. Configure logging:  
-   - `/setlogs` to set log channel and/or webhook
+👉 **[Add VerifyBot to your server](https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands)**
+
+2. Configure logging:
+
+- `/setlogs` — set log channel and/or webhook
 
 3. Configure verification:
-   - `/addverifyrole` to whitelist roles VerifyBot is allowed to assign/update
-   - Optional: `/setreactionverify` to enable reaction-based verification
-   - Use `/verify` for manual verification
+
+- `/addverifyrole` — whitelist roles VerifyBot can assign
+- `/setreactionverify` — enable reaction-based verification
+- `/verify` — manually verify a user
 
 ---
 
