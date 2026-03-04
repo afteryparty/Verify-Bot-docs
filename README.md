@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/verify-bot.png" width="120">
+<img src="assets/images/verifybot.png" width="120">
 
 # VerifyBot
 Verification & trust tooling for Discord  
@@ -40,7 +40,7 @@ A project by **Afterparty Bot Labs**
 
 ### 1. Invite the bot to your server
 
-👉 **[Add VerifyBot to your server](https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands)**
+[![Add VerifyBot](https://img.shields.io/badge/Add%20VerifyBot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands)
 
 ### 2. Configure logging
 
