@@ -21,12 +21,82 @@ a:hover { color: var(--verifyHover); text-decoration: underline; }
 /* Headings */
 h1, h2, h3 { color: #fff; }
 
-/* Buttons (Midnight uses .btn) */
-.btn { border-radius: 10px; padding: 10px 14px; font-weight: 800; }
-.btn.primary { background: var(--verify); color: #071018; border: 1px solid rgba(255,255,255,.14); }
-.btn.primary:hover { background: var(--verifyHover); }
-.btn.secondary { background: rgba(255,255,255,.10); border: 1px solid rgba(255,255,255,.16); color: #fff; }
-.btn.secondary:hover { background: rgba(255,255,255,.16); }
+/* Buttons */
+.btn {
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 800;
+}
+
+.btn.primary {
+  background: var(--verify);
+  color: #071018;
+  border: 1px solid rgba(255,255,255,.14);
+}
+
+.btn.primary:hover {
+  background: var(--verifyHover);
+}
+
+.btn.secondary {
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.16);
+  color: #fff;
+}
+
+.btn.secondary:hover {
+  background: rgba(255,255,255,.16);
+}
+
+/* Bot switcher */
+.bot-switcher {
+  position: relative;
+  display: inline-block;
+}
+
+.bot-switcher-btn {
+  cursor: default;
+}
+
+.bot-menu {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 210px;
+  background: #101722;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,.28);
+  padding: 8px;
+  z-index: 50;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.18s ease, transform 0.18s ease;
+}
+
+.bot-switcher:hover .bot-menu,
+.bot-switcher:focus-within .bot-menu {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(0);
+}
+
+.bot-menu a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+}
+
+.bot-menu a:hover {
+  background: rgba(255,255,255,.08);
+  text-decoration: none;
+}
 
 /* Content cards */
 .card {
