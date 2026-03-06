@@ -4,8 +4,6 @@ title: VerifyBot
 description: Official documentation and command reference for VerifyBot by Afterparty Bot Labs.
 ---
 
----
-
 ## What VerifyBot Does
 
 **VerifyBot** helps servers manage verification and trust workflows with tools for:
