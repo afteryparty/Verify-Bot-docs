@@ -4,10 +4,6 @@ title: VerifyBot
 description: Official documentation and command reference for VerifyBot by Afterparty Bot Labs.
 ---
 
-# VerifyBot
-
-Official documentation and command reference for **VerifyBot** by **Afterparty Bot Labs**.
-
 ---
 
 ## What VerifyBot Does
