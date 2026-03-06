@@ -58,6 +58,8 @@ A project by **Afterparty Bot Labs**
 
 # Commands
 
+➡️ View full documentation: https://afteryparty.github.io/Verify-Bot-docs/
+
 ## Verification
 
 `/verify` — Manually verify a user with a role  
