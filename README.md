@@ -1,28 +1,26 @@
-# The Guardian Link
+# VerifyBot
 
-Security automation for Discord communities.
+Verification and trust tooling for Discord communities.
 
-[![Documentation](https://img.shields.io/badge/Documentation-Docs-1F1A7A?style=for-the-badge)](https://afterparty.github.io/guardian-link-docs/)
-[![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white)](BOT_INVITE_LINK)
-[![Support](https://img.shields.io/badge/Support-Discord-1F1A7A?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
-[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-1F1A7A?style=for-the-badge)](https://afterpartylabs.xyz)
-
----
-
-The Guardian Link is a **cross-server security companion** designed for Discord moderation teams.
-
-It helps communities share security intelligence and prevent bad actors from hopping between servers.
+[![Documentation](https://img.shields.io/badge/Documentation-Docs-4E8ED8?style=for-the-badge)](https://afterparty.github.io/Verify-Bot-docs/)
+[![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white)](BOT_INVITE_LINK)
+[![Support](https://img.shields.io/badge/Support-Discord-4E8ED8?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-4E8ED8?style=for-the-badge)](https://afterpartylabs.xyz)
 
 ---
 
-# ⚡ Key Features
+VerifyBot helps Discord servers manage **verification workflows and trust systems**.
 
-- Cross-server ban alerts
-- Shared moderation intelligence
-- Allowlists and denylists
-- Audit-ready moderation logs
-- Configurable alert embeds
-- Slash command configuration
+---
+
+# ✨ Features
+
+- Manual verification tools
+- Reaction-based verification systems
+- Verification logging (channel or webhook)
+- Cross-server verification checks
+- Moderation utilities for verified users
+- Admin diagnostic commands
 
 ---
 
@@ -30,13 +28,21 @@ It helps communities share security intelligence and prevent bad actors from hop
 
 Full documentation:
 
-👉 https://afterparty.github.io/guardian-link-docs/
+👉 https://afterparty.github.io/Verify-Bot-docs/
+
+---
+
+# 🚀 Quick Start
+
+1. Invite the bot to your server  
+2. Configure logging  
+3. Enable verification roles  
 
 ---
 
 # 🏢 Project
 
-The Guardian Link is developed by **Afterparty Bot Labs**.
+VerifyBot is developed by **Afterparty Bot Labs**.
 
 Website  
 https://afterpartylabs.xyz
