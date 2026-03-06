@@ -43,17 +43,8 @@
         display: inline-block;
       }
 
-      .bot-switcher summary {
-        list-style: none;
-        cursor: pointer;
-      }
-
-      .bot-switcher summary::-webkit-details-marker {
-        display: none;
-      }
-
-      .bot-switcher[open] summary {
-        background: rgba(255,255,255,.16);
+      .bot-switcher-btn {
+        cursor: default;
       }
 
       .bot-menu {
@@ -68,6 +59,18 @@
         box-shadow: 0 12px 30px rgba(0,0,0,.28);
         padding: 8px;
         z-index: 50;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+        transition: opacity 0.18s ease, transform 0.18s ease;
+      }
+
+      .bot-switcher:hover .bot-menu,
+      .bot-switcher:focus-within .bot-menu {
+        opacity: 1;
+        visibility: visible;
+        pointer-events: auto;
+        transform: translateX(-50%) translateY(0);
       }
 
       .bot-menu a {
@@ -111,14 +114,14 @@
         <div class="cta">
           <a href="{{ '/index.html' | relative_url }}" class="btn secondary">Home</a>
 
-          <details class="bot-switcher">
-            <summary class="btn secondary">Bots ▾</summary>
+          <div class="bot-switcher">
+            <button type="button" class="btn secondary bot-switcher-btn">Bots ▼</button>
             <div class="bot-menu">
               <a href="https://afteryparty.github.io/guardian-link-docs/">Guardian Link</a>
               <a href="https://afteryparty.github.io/voice-maestro-docs/">VoiceMaestro</a>
               <a href="https://afteryparty.github.io/Verify-Bot-docs/">VerifyBot</a>
             </div>
-          </details>
+          </div>
 
           {% if site.cta_invite_url %}
             <a href="{{ site.cta_invite_url }}" class="btn primary">Invite</a>
