@@ -6,6 +6,10 @@ A project by **Afterparty Bot Labs**
 
 <br>
 
+<a href="https://afteryparty.github.io/Verify-Bot-docs/">
+  <img src="https://img.shields.io/badge/Documentation-VerifyBot-4E8ED8?style=for-the-badge&logo=readthedocs&logoColor=white" alt="VerifyBot Docs">
+</a>
+
 <a href="https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands">
   <img src="https://img.shields.io/badge/Add%20Bot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white" alt="Invite VerifyBot">
 </a>
