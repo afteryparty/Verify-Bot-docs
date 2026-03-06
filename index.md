@@ -6,7 +6,7 @@ description: Official documentation and command reference for VerifyBot by After
 
 # VerifyBot
 
-Official documentation and command reference for VerifyBot by Afterparty Bot Labs.
+Official documentation and command reference for **VerifyBot** by **Afterparty Bot Labs**.
 
 ---
 
@@ -42,7 +42,36 @@ Official documentation and command reference for VerifyBot by Afterparty Bot Lab
 
 ## Commands
 
-➡️ View full documentation: https://afteryparty.github.io/Verify-Bot-docs/
+### Verification
+
+`/verify` — Manually verify a user with a role  
+`/setreactionverify` — Set up reaction-based verification (channel, role, emoji)  
+`/addverifyrole` — Whitelist roles for verification updates  
+`/removeverifyrole` — Remove a role from the whitelist  
+`/listverifyroles` — List all whitelisted verification roles  
+
+### Moderation
+
+`/check` — Check a user  
+`/crosscheck` — Check if a user is verified in other servers  
+`/bancheck` — Check a banned verified user  
+`/fullscan` — Perform a retroactive full scan to assign or log a whitelisted role  
+
+### Settings
+
+`/setlogs` — Configure logging settings (channel and/or webhook)
+
+### Info
+
+`/help` — Show command categories  
+`/about` — Show information about the bot  
+`/ping` — Check bot latency  
+`/stats` — View verification statistics  
+`/support` — Get support links  
+
+> Some commands are restricted to bot developers or owners.
+
+---
 
 ## Project Notice
 
