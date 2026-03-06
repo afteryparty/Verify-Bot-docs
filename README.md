@@ -1,102 +1,46 @@
-<div align="center">
+# The Guardian Link
 
-# VerifyBot
-Verification & trust tooling for Discord  
-A project by **Afterparty Bot Labs**
+Security automation for Discord communities.
 
-<br>
-
-<a href="https://afteryparty.github.io/Verify-Bot-docs/">
-  <img src="https://img.shields.io/badge/Documentation-VerifyBot-4E8ED8?style=for-the-badge&logo=readthedocs&logoColor=white" alt="VerifyBot Docs">
-</a>
-
-<a href="https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands">
-  <img src="https://img.shields.io/badge/Add%20Bot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white" alt="Invite VerifyBot">
-</a>
-
-<a href="https://discord.com/invite/BusuZp2G8w">
-  <img src="https://img.shields.io/badge/Support-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Support Server">
-</a>
-
-<a href="https://afterpartylabs.xyz">
-  <img src="https://img.shields.io/badge/Afterparty%20Bot%20Labs-Website-4E8ED8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Afterparty Bot Labs Website">
-</a>
-
-</div>
+[![Documentation](https://img.shields.io/badge/Documentation-Docs-1F1A7A?style=for-the-badge)](https://afterparty.github.io/guardian-link-docs/)
+[![Add Bot](https://img.shields.io/badge/Add%20Bot-Invite-1F1A7A?style=for-the-badge&logo=discord&logoColor=white)](BOT_INVITE_LINK)
+[![Support](https://img.shields.io/badge/Support-Discord-1F1A7A?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/BusuZp2G8w)
+[![Website](https://img.shields.io/badge/Website-Afterparty%20Bot%20Labs-1F1A7A?style=for-the-badge)](https://afterpartylabs.xyz)
 
 ---
 
-# What VerifyBot Does
+The Guardian Link is a **cross-server security companion** designed for Discord moderation teams.
 
-**VerifyBot** helps servers manage verification and trust workflows with tools for:
-
-- Verification roles (manual + reaction-based)
-- Verification logging (channel + webhook)
-- Cross-server verification checks (trusted server network)
-- Moderation utilities for verified/banned users
-- Developer/admin diagnostics (restricted)
+It helps communities share security intelligence and prevent bad actors from hopping between servers.
 
 ---
 
-# Quick Start
+# ⚡ Key Features
 
-## 1. Invite the bot to your server
-
-[![Add VerifyBot](https://img.shields.io/badge/Add%20VerifyBot-Invite-4E8ED8?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1325944440778657873&permissions=2953309377&integration_type=0&scope=bot+applications.commands)
-
-## 2. Configure logging
-
-`/setlogs` — set log channel and/or webhook
-
-## 3. Configure verification
-
-`/addverifyrole` — whitelist roles VerifyBot can assign  
-`/setreactionverify` — enable reaction-based verification  
-`/verify` — manually verify a user
+- Cross-server ban alerts
+- Shared moderation intelligence
+- Allowlists and denylists
+- Audit-ready moderation logs
+- Configurable alert embeds
+- Slash command configuration
 
 ---
 
-# Commands
+# 📚 Documentation
 
-➡️ View full documentation: https://afteryparty.github.io/Verify-Bot-docs/
+Full documentation:
 
-## Verification
-
-`/verify` — Manually verify a user with a role  
-`/setreactionverify` — Set up reaction-based verification (channel, role, emoji)  
-`/addverifyrole` — Whitelist roles for verification updates  
-`/removeverifyrole` — Remove a role from the whitelist  
-`/listverifyroles` — List all whitelisted verification roles
-
-## Moderation
-
-`/check` — Check a user  
-`/crosscheck` — Check if a user is verified in other servers  
-`/bancheck` — Check a banned verified user  
-`/fullscan` — Perform a retroactive full scan to assign or log a whitelisted role
-
-## Settings
-
-`/setlogs` — Configure logging settings (channel and/or webhook)
-
-## Info
-
-`/help` — Show command categories  
-`/about` — Show information about the bot  
-`/ping` — Check bot latency  
-`/stats` — View verification statistics  
-`/support` — Get support links
-
-> Some commands are restricted to bot developers/owners.
+👉 https://afterparty.github.io/guardian-link-docs/
 
 ---
 
-# Project Notice
+# 🏢 Project
 
-- This bot is **private**
-- Forks and PRs are **not accepted**
-- Self-hosting is **not supported**
+The Guardian Link is developed by **Afterparty Bot Labs**.
+
+Website  
+https://afterpartylabs.xyz
 
 ---
 
-*Powered by Afterparty Bot Labs © 2026*
+Powered by **Afterparty Bot Labs © 2026**
